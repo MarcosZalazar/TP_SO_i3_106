@@ -1,1 +1,5 @@
+gamma:
 
+nombre y apellido: ruben lopez
+Ip:192.168.0.13
+hora:23:42
