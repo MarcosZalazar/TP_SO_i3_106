@@ -3,3 +3,9 @@ gamma:
 nombre y apellido: ruben lopez
 Ip:192.168.0.13
 hora:23:42
+
+alpha:
+
+Tomas Perez Ponisio
+192.168.56.1
+The current time is: 18:17:24.45

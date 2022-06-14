@@ -1,0 +1,230 @@
+
+Host Name:                 DESKTOP-2I78IR5
+OS Name:                   Microsoft Windows 10 Home
+OS Version:                10.0.19044 N/A Build 19044
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Tomas
+Registered Organization:   N/A
+Product ID:                00326-30000-00001-AA970
+Original Install Date:     3/28/2022, 15:32:57
+System Boot Time:          6/12/2022, 0:01:09
+System Manufacturer:       To Be Filled By O.E.M.
+System Model:              To Be Filled By O.E.M.
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 158 Stepping 10 GenuineIntel ~3192 Mhz
+BIOS Version:              American Megatrends Inc. P4.10, 3/15/2019
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume2
+System Locale:             es-mx;Spanish (Mexico)
+Input Locale:              es;Spanish (Traditional Sort)
+Time Zone:                 N/A
+Total Physical Memory:     16,318 MB
+Available Physical Memory: 6,463 MB
+Virtual Memory: Max Size:  32,636 MB
+Virtual Memory: Available: 13,808 MB
+Virtual Memory: In Use:    18,828 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-2I78IR5
+Hotfix(s):                 7 Hotfix(s) Installed.
+                           [01]: KB5013887
+                           [02]: KB5003304
+                           [03]: KB5003791
+                           [04]: KB5013942
+                           [05]: KB5011352
+                           [06]: KB5011651
+                           [07]: KB5014032
+Network Card(s):           4 NIC(s) Installed.
+                           [01]: Realtek PCIe GbE Family Controller
+                                 Connection Name: Ethernet
+                                 Status:          Media disconnected
+                           [02]: TP-Link Wireless MU-MIMO USB Adapter
+                                 Connection Name: Wi-Fi
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.0.1
+                                 IP address(es)
+                                 [01]: 192.168.0.9
+                                 [02]: fe80::f56c:3d68:fb0b:4b6
+                                 [03]: 2800:810:446:e94:5559:4d68:9331:40e2
+                                 [04]: 2800:810:446:e94:f56c:3d68:fb0b:4b6
+                                 [05]: 2800:810:446:e94::1
+                           [03]: VirtualBox Host-Only Ethernet Adapter
+                                 Connection Name: VirtualBox Host-Only Network
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.56.1
+                                 [02]: fe80::19c5:1705:a46e:7ce4
+                           [04]: Bluetooth Device (Personal Area Network)
+                                 Connection Name: Conexión de red Bluetooth 2
+                                 Status:          Media disconnected
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
+
+C:\Users\Tomas>systeminfo short
+ERROR: Invalid argument/option - 'short'.
+Type "SYSTEMINFO /?" for usage.
+
+C:\Users\Tomas>systeminfo /?
+
+SYSTEMINFO [/S system [/U username [/P [password]]]] [/FO format] [/NH]
+
+Description:
+    This tool displays operating system configuration information for
+    a local or remote machine, including service pack levels.
+
+Parameter List:
+    /S      system           Specifies the remote system to connect to.
+
+    /U      [domain\]user    Specifies the user context under which
+                             the command should execute.
+
+    /P      [password]       Specifies the password for the given
+                             user context. Prompts for input if omitted.
+
+    /FO     format           Specifies the format in which the output
+                             is to be displayed.
+                             Valid values: "TABLE", "LIST", "CSV".
+
+    /NH                      Specifies that the "Column Header" should
+                             not be displayed in the output.
+                             Valid only for "TABLE" and "CSV" formats.
+
+    /?                       Displays this help message.
+
+Examples:
+    SYSTEMINFO
+    SYSTEMINFO /?
+    SYSTEMINFO /S system
+    SYSTEMINFO /S system /U user
+    SYSTEMINFO /S system /U domain\user /P password /FO TABLE
+    SYSTEMINFO /S system /FO LIST
+    SYSTEMINFO /S system /FO CSV /NH
+
+C:\Users\Tomas>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Ethernet adapter VirtualBox Host-Only Network:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::19c5:1705:a46e:7ce4%14
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+
+Wireless LAN adapter Conexión de área local* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Conexión de área local* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : pcnat.telecentro.net.ar
+   IPv6 Address. . . . . . . . . . . : 2800:810:446:e94::1
+   IPv6 Address. . . . . . . . . . . : 2800:810:446:e94:f56c:3d68:fb0b:4b6
+   Temporary IPv6 Address. . . . . . : 2800:810:446:e94:5559:4d68:9331:40e2
+   Link-local IPv6 Address . . . . . : fe80::f56c:3d68:fb0b:4b6%6
+   IPv4 Address. . . . . . . . . . . : 192.168.0.9
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::faab:5ff:fe62:642c%6
+                                       192.168.0.1
+
+Ethernet adapter Conexión de red Bluetooth 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+C:\Users\Tomas>localtime
+'localtime' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Tomas>time
+The current time is: 18:17:24.45
+Enter the new time: systeminfo
+The system cannot accept the time entered.
+Enter the new time:
+C:\Users\Tomas>systeminfo
+
+Host Name:                 DESKTOP-2I78IR5
+OS Name:                   Microsoft Windows 10 Home
+OS Version:                10.0.19044 N/A Build 19044
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Tomas
+Registered Organization:   N/A
+Product ID:                00326-30000-00001-AA970
+Original Install Date:     3/28/2022, 15:32:57
+System Boot Time:          6/12/2022, 0:01:09
+System Manufacturer:       To Be Filled By O.E.M.
+System Model:              To Be Filled By O.E.M.
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 158 Stepping 10 GenuineIntel ~3192 Mhz
+BIOS Version:              American Megatrends Inc. P4.10, 3/15/2019
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume2
+System Locale:             es-mx;Spanish (Mexico)
+Input Locale:              es;Spanish (Traditional Sort)
+Time Zone:                 N/A
+Total Physical Memory:     16,318 MB
+Available Physical Memory: 6,505 MB
+Virtual Memory: Max Size:  32,636 MB
+Virtual Memory: Available: 13,885 MB
+Virtual Memory: In Use:    18,751 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-2I78IR5
+Hotfix(s):                 7 Hotfix(s) Installed.
+                           [01]: KB5013887
+                           [02]: KB5003304
+                           [03]: KB5003791
+                           [04]: KB5013942
+                           [05]: KB5011352
+                           [06]: KB5011651
+                           [07]: KB5014032
+Network Card(s):           4 NIC(s) Installed.
+                           [01]: Realtek PCIe GbE Family Controller
+                                 Connection Name: Ethernet
+                                 Status:          Media disconnected
+                           [02]: TP-Link Wireless MU-MIMO USB Adapter
+                                 Connection Name: Wi-Fi
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.0.1
+                                 IP address(es)
+                                 [01]: 192.168.0.9
+                                 [02]: fe80::f56c:3d68:fb0b:4b6
+                                 [03]: 2800:810:446:e94:5559:4d68:9331:40e2
+                                 [04]: 2800:810:446:e94:f56c:3d68:fb0b:4b6
+                                 [05]: 2800:810:446:e94::1
+                           [03]: VirtualBox Host-Only Ethernet Adapter
+                                 Connection Name: VirtualBox Host-Only Network
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.56.1
+                                 [02]: fe80::19c5:1705:a46e:7ce4
+                           [04]: Bluetooth Device (Personal Area Network)
+                                 Connection Name: Conexión de red Bluetooth 2
+                                 Status:          Media disconnected
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
