@@ -1,0 +1,67 @@
+C:\Users\Marcos>systeminfo
+
+Nombre de host:                            DESKTOP-H92TGOI
+Nombre del sistema operativo:              Microsoft Windows 10 Pro
+Versión del sistema operativo:             10.0.19043 N/D Compilación 19043
+Fabricante del sistema operativo:          Microsoft Corporation
+Configuración del sistema operativo:       Estación de trabajo independiente
+Tipo de compilación del sistema operativo: Multiprocessor Free
+Propiedad de:                              Marcos
+Organización registrada:
+Id. del producto:                          00330-80000-00000-AA564
+Fecha de instalación original:             17/07/2021, 15:43:50
+Tiempo de arranque del sistema:            14/06/2022, 18:39:07
+Fabricante del sistema:                    BIOSTAR Group
+Modelo el sistema:                         H310MHP
+Tipo de sistema:                           x64-based PC
+Procesador(es):                            1 Procesadores instalados.
+                                           [01]: Intel64 Family 6 Model 158 Stepping 10 GenuineIntel ~2904 Mhz
+Versión del BIOS:                          American Megatrends Inc. 5.12, 30/12/2019
+Directorio de Windows:                     C:\Windows
+Directorio de sistema:                     C:\Windows\system32
+Dispositivo de arranque:                   \Device\HarddiskVolume1
+Configuración regional del sistema:        es-mx;Español (México)
+Idioma de entrada:                         es-mx;Español (México)
+Zona horaria:                              (UTC-03:00) Ciudad de Buenos Aires
+Cantidad total de memoria física:          32.730 MB
+Memoria física disponible:                 23.396 MB
+Memoria virtual: tamaño máximo:            37.594 MB
+Memoria virtual: disponible:               24.896 MB
+Memoria virtual: en uso:                   12.698 MB
+Ubicación(es) de archivo de paginación:    C:\pagefile.sys
+Dominio:                                   WORKGROUP
+Servidor de inicio de sesión:              \\DESKTOP-H92TGOI
+Revisión(es):                              9 revisión(es) instaladas.
+                                           [01]: KB5013624
+                                           [02]: KB5000736
+                                           [03]: KB5013942
+                                           [04]: KB5006753
+                                           [05]: KB5007273
+                                           [06]: KB5011352
+                                           [07]: KB5011651
+                                           [08]: KB5014032
+                                           [09]: KB5005699
+Tarjeta(s) de red:                         3 Tarjetas de interfaz de red instaladas.
+                                           [01]: Realtek PCIe GbE Family Controller
+                                                 Nombre de conexión: Ethernet
+                                                 Estado:             Medios desconectados
+                                           [02]: D-Link DWA-125 Wireless N 150 USB Adapter(rev.A2)
+                                                 Nombre de conexión: Wi-Fi
+                                                 DHCP habilitado:    Sí
+                                                 Servidor DHCP:      192.168.0.1
+                                                 Direcciones IP
+                                                 [01]: 192.168.0.63
+                                                 [02]: fe80::c08b:b47:2c8d:9d7
+                                                 [03]: 2800:810:42d:b8f:458:8e56:d97:ca7d
+                                                 [04]: 2800:810:42d:b8f:c08b:b47:2c8d:9d7
+                                                 [05]: 2800:810:42d:b8f::1001
+                                           [03]: VirtualBox Host-Only Ethernet Adapter
+                                                 Nombre de conexión: VirtualBox Host-Only Network
+                                                 DHCP habilitado:    No
+                                                 Direcciones IP
+                                                 [01]: 192.168.56.1
+                                                 [02]: fe80::18fd:1c5f:8d8b:9886
+Requisitos Hyper-V:                        Extensiones de modo de monitor de VM: Sí
+                                           Se habilitó la virtualización en el firmware: Sí
+                                           Traducción de direcciones de segundo nivel: Sí
+                                           La prevención de ejecución de datos está disponible: Sí
