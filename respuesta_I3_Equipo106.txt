@@ -1,0 +1,41 @@
+a - El master queda con todos los cambios introducidos en las ramas "ramaLopez" y "ramaZalazar"
+b - Manteniendo los repositorios actualizados, sincronizando el repositorio local con el de Github mediante git pull
+c - En el punto 5, primero tuve que hacer un git swtich main para ir a la rama main. Una vez ahi, hice git merge ramaLopez para fusionar las dos ramas.
+Luego verifiqué las ramas con git branch -r. Una vez que estaba en el main (después de la fusión), hice git push para subir los cambios al remoto.
+d-¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
+	no, dado que que la rama de beta esta mas avanzado que rama gamma, donde
+	se agrega el archivo beta.txt.
+
+e-¿Detalle (explique) los problemas que tuvieron al hacer el merge?	
+	no hubo inconvenientes, solo los conflictos de cambio con los archivos actualizados.
+	
+f-¿que debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido?
+
+	 365  git branch
+	 366  git pull (de ramaLopez)
+ 	 367  git checkout main
+ 	 368  git branch
+ 	 369  git pull
+ 	 370  clear
+ 	 371  git checkout --track origin/ramaZalazar
+ 	 372  git branch
+ 	 373  git pull
+ 	 374  git branch
+ 	 375  git checkout ramaLopez
+ 	 376  git branch
+ 	 377  git checkout ramaZalazar
+ 	 378  git branch
+ 	 379  git pull
+ 	 380  git add .
+ 	 381  git commit -m "subo modificacion de archivo beta.txt"
+ 	 382  git push
+
+G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
+
+8-ALFA debe lograr modificar “beta.txt” agregando su nombre y apellido , la información que retorna el ifconfig , la hora, y hace el push.
+
+Al llegar a ese paso estaba en la rama de Gamma (/ramaLopez), Alpha se tuvo que pasar a la rama de Beta (ramaZalazar) haciendo: git checkout --track origin/ramaZalazar
+Una vez en la rama correcta se actualizaron los archivos, se completó la información y:
+git add .  
+git commit -m ""
+git push
